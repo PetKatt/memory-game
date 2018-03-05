@@ -1,0 +1,77 @@
+body
+{
+	background-color: #000000;
+	font-family: 'Spectral SC', serif;
+	font-size: 28px;
+}
+
+#title
+{
+	color: #E8B856;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.board
+{
+	margin: auto;
+	width: 1000px;
+}
+
+.winnerBoard
+{
+	margin: auto;
+	color: #E8B856;
+}
+
+.level
+{
+	margin: auto;
+	padding: 4px 0;
+	background-color: #FBE595;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 5px;
+	text-align: center;
+	opacity: 0.9;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.level:hover
+{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.field
+{
+	width: 786px;
+	margin: auto;
+}
+
+.card
+{
+	margin: 1px;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 125px;
+	height: 125px;
+	float: left;
+	opacity: 0.8;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover
+{
+	opacity: 1;
+}
+
+#counter
+{
+	color: #E8B856;
+	margin: auto;
+	clear: both;
+	text-align: center;
+	text-decoration: underline;
+}
